@@ -21,7 +21,7 @@ boxes.forEach((box)=>{
     });
 });
 const showWinner=(winner)=>{
-    msg.innerText=`Congrtaulations,Winner is ${winner}`;
+    msg.innerText=`Congratulations,Winner is ${winner}`;
     msgContainer.classList.remove("hide");
     disableboxes();
 }
@@ -61,5 +61,6 @@ const enableboxes=()=>{
 
 newGameBtn.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame);
+
 
 
